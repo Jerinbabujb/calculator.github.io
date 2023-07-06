@@ -1,0 +1,34 @@
+h1{
+    text-align: center;
+}
+.container{
+    background-color: rgb(14, 235, 235);
+    border-radius: 10px;
+    margin:auto;
+    height: 520px;
+    width: 460px;
+}
+#display{
+    height: 128px;
+    width: 423px;
+    margin: 7px 0px 10px 10px;
+    font-size: 66px;
+    text-align: right;
+    border-radius: 10px;
+}
+.button{
+ 
+    background-color: black;
+    color: aliceblue;
+    height: 65px;
+    width: 99px;
+    text-align: center;
+    margin: 5px;
+    font-size: 29px;
+    border-radius: 10px;
+    box-shadow: 5px 6px 0.2px 0.2px #443d3d;
+
+}
+.button:hover{
+    border: 2px solid yellowgreen;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            calculator
+        </title>
+        <link rel="stylesheet" href="calc.css">
+    </head>
+    <body>
+<h1>
+    calculator
+</h1>
+<div class="container">
+    <form action="">
+        <div class="display">
+        <input type="text" id="display" >
+            </div>
+            <div>
+                <input type="button" class="button" value="AC" onclick="screenclear()">
+                <input type="button" class="button" value="DC" onclick="del()">
+                <input type="button" class="button" value="%" onclick="btnclick(value)">
+                <input type="button" class="button" value="/" onclick="btnclick(value)">
+            </div>
+            <div>
+                <input type="button" class="button" value="7" onclick="btnclick(value)">
+                <input type="button" class="button" value="8" onclick="btnclick(value)">
+                <input type="button" class="button" value="9" onclick="btnclick(value)">
+                <input type="button" class="button" value="*" onclick="btnclick(value)">
+            </div>
+            <div>
+                <input type="button" class="button" value="4" onclick="btnclick(value)">
+                <input type="button" class="button" value="5" onclick="btnclick(value)">
+                <input type="button" class="button" value="6" onclick="btnclick(value)">
+                <input type="button" class="button" value="-" onclick="btnclick(value)">
+            </div>
+            <div>
+                <input type="button" class="button" value="1" onclick="btnclick(value)">
+                <input type="button" class="button" value="2" onclick="btnclick(value)">
+                <input type="button" class="button" value="3" onclick="btnclick(value)">
+                <input type="button" class="button" value="+" onclick="btnclick(value)">
+            </div>
+            <div>
+                <input type="button" class="button" value="00" onclick="btnclick(value)">
+                <input type="button" class="button" value="0"  onclick="btnclick(value)">
+                <input type="button" class="button" value="." onclick="btnclick(value)">
+                <input type="button" class="button" value="=" onclick="equal()">
+            </div>
+    </form>
+</div>
+    </body>
+
+
+    <script src="./calc.js"></script>
+</html>
